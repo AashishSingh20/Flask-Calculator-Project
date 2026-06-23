@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+
+/* INDEX PAGE */
+
+.hero{
+    display:flex;
+    min-height:100vh;
+}
+
+.left-panel{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:80px;
+    color:white;
+}
+
+.left-panel h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.left-panel p{
+    font-size:1.2rem;
+    color:#cbd5e1;
+    line-height:1.8;
+    max-width:500px;
+}
+
+.right-panel{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.calculator-card{
+    width:420px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+}
+
+.calculator-card h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#0f172a;
+}
+
+.calculator-card input,
+.calculator-card select{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.calculator-card button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.calculator-card button:hover{
+    background:#1d4ed8;
+}
+
+/* RESULT PAGE */
+
+.result-container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.result-card{
+    width:550px;
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,.3);
+}
+
+.result-card h1{
+    color:#0f172a;
+    margin-bottom:25px;
+}
+
+.result-value{
+    font-size:4rem;
+    font-weight:bold;
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.result-message{
+    font-size:1.2rem;
+    color:#475569;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
